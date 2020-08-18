@@ -1,0 +1,26 @@
+.container-app{
+    min-width: 100%;
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f4e6;
+
+    .container-wrap{
+        width: 70%;
+        height:70vh;
+        border: 2px solid #fddb3a;
+        background-color: #52575d;
+        display: flex;
+        flex-direction: column;
+
+        .container-canvas{
+            height: 90%;
+        }
+
+        .container-controls{
+            background-color: #fddb3a;
+            height: 10%;
+        }
+    }
+}
